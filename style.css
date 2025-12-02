@@ -182,6 +182,8 @@ strong {
     gap: 2rem;
 }
 
+
+
 .third-section div {
     display: flex;
     gap: 4rem;
@@ -201,6 +203,26 @@ strong {
     max-width: 600px;
     text-align: justify;
 }
+
+#my-projects-list {
+    display: flex;
+    gap: 2rem;
+}
+
+#my-projects-list a{
+    display: flex;
+    text-decoration: none;
+    color: var(--dark3);
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+#my-projects-list a:hover{
+    color: var(--white);
+    transition: 0.4s;
+}
+
 footer {
     padding: 4rem;
     display: flex;
@@ -215,4 +237,21 @@ footer > div {
     align-items: center;
     gap: 2rem;
     flex-wrap: wrap;
+}
+
+.project-card {
+    background-color: var(--dark2);
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid var(--dark3);
+
+    width: 200px;          
+    text-align: center;    
+    transition: 0.3s;
+}
+
+.project-card:hover {
+    background-color: var(--dark3);
+    border-color: var(--cyan1);
+    transform: translateY(-5px);
 }
