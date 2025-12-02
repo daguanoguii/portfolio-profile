@@ -1,3 +1,0 @@
-function getProjects(){
-    const urlGitHub =
-}
